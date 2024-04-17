@@ -1,0 +1,181 @@
+html{
+    background-color: #261c1f;
+
+}
+.margen{
+    background-color: #634b4e;
+}
+
+h1{
+    color: white;
+    background-color: #634b4e;
+    text-align: center;
+    
+}
+
+.word{
+    font-size: 0;
+    line-height: 1.5;
+}
+
+.words h1{
+    font-size: 5rem;
+    display: inline-block;
+    margin-left: 50px;
+    animation: move 4s ease-in-out infinite;
+}
+
+@keyframes move {
+    0%{
+    transform: translate(-30%, 0);
+    
+    }
+    50%{
+        text-shadow: 0 25px 50px rgb(12, 12, 12);
+    }
+
+    100%{
+        transform: translate(30%, 0);
+    }
+}
+
+
+h2{
+    color: white;
+}
+p{
+    color: white;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.r{
+    height: 50px;
+    width: 50px;
+    background-color: #634b4e;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    
+}
+.oficinaex{
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+    margin-top: -100px;
+}
+.oficinain{
+    height: 500px;
+    width: 600px;
+}
+.oficinain2{
+    height: 500px;
+    width: 600px;
+}
+.Donuts{
+    height: 300px;
+    width: 400px;
+}
+.Garba{
+    height: 300px;
+    width: 400px;
+}
+.Ln{
+    height: 300px;
+    width: 400px;
+
+}
+.Lynx{
+    height: 300px;
+    width: 400px;
+}
+.Secco{
+    height: 300px;
+    width: 400px;
+}
+.erikstaff{
+margin-left: 500px;
+}
+.amaristaff{
+    margin-left: 400px;
+}
+
+ul{
+    
+	list-style: none;
+    margin:20px;
+	
+}
+h3{
+    color: white;
+    margin: 100px;
+    margin-top: 50px;
+}
+ol{
+    color: white;
+    margin: 50px;
+}
+li{
+    color: #634b4e;
+    margin:20px;
+    
+
+    
+}
+
+a{
+    color: white;
+}
+.video{
+    margin-left: 400px;
+}
+.rmisio{
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+    margin-top: -100px;
+
+}
+
+.cartelcelu{
+    height: 400px;
+    width: 600px;
+    margin-left: 300px;
+
+}
+.compubara{
+    height: 500px;
+    width: 500px;
+}
+.capycelu{
+    height: 500px;
+    width: 700px;
+}
+.dst{
+    height: 500px;
+    width: 500px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0e0909;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+span{
+    color: white;
+}
+
